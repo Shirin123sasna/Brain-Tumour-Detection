@@ -1,0 +1,8 @@
+Accurate and efficient brain tumor classification from MRI images is essential for early diagnosis and improved clinical decision-making. This study evaluates the performance of a baseline 
+Convolutional Neural Network (CNN) trained from scratch against three state-of-the-art transfer learning models; ResNet50, DenseNet121, and EfficientNet-B0 to determine their effectiveness in multi-class brain tumor detection. Using a balanced dataset comprising glioma, meningioma, 
+pituitary, and no-tumor images, all models were trained under identical conditions and assessed using accuracy, F1-score, class-wise performance, and computational efficiency. Results show that 
+transfer learning models significantly outperform the baseline CNN, achieving faster convergence, stronger generalization, and reduced computational cost. EfficientNet-B0 achieved the highest 
+validation accuracy (0.9297) and test accuracy (0.9271), along with superior class-wise performance, particularly in the visually challenging meningioma class. Despite balanced class 
+distribution, meningioma remained difficult to classify due to subtle feature overlap with other tumor types. Overall, the findings demonstrate that transfer learning. especially EfficientNet-B0 
+provides a highly effective and efficient approach for MRI-based brain tumor classification, offering strong potential for real-world medical imaging applications. Meanwhile classification and localization with YOLO models across nano, small, and
+medium backbones show that YOLOv11n offers the best balance of speed and performance with an mAP50 of 0.915 on the test setand the fastest inference time (2.6 ms). Tumor-level results indicate strong performance for meningioma and pituitary tumors.
